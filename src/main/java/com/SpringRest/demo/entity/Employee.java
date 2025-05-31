@@ -16,8 +16,8 @@ public class Employee {
 
     }
     @Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
-@Column(name="id")
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+   @Column(name="id")
     private int id;
 
     @Column(name="first_name")
