@@ -20,6 +20,7 @@ public class StudentRestExceptionHandler {
         return new ResponseEntity<>(errorResponse, HttpStatus.NOT_FOUND);
 
     }
+
     @ExceptionHandler
     public ResponseEntity<StudentErrorResponse>
     handleException(Exception exc) {
